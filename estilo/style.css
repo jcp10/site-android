@@ -25,6 +25,17 @@
     padding: 0px;
 }
 
+MAIN H1{
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+}
+
+main h2{
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+}
+
 main p{
     margin: 15px 0px;
     text-align: justify;
@@ -164,6 +175,22 @@ footer{
     text-align: center;
    
 }
+
+div.video{
+    background-color: green;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
 footer a{
     color:var(--cor2);
     text-decoration: none;
